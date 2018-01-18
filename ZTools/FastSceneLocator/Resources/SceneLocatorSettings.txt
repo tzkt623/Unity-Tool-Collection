@@ -1,0 +1,399 @@
+﻿{
+  "batches": [
+  	{
+	  "tag":"文件",
+	  "describe": "添加/删除 快速场景跳转",
+      "scenes": [
+        "/ZTools/FastSceneLocator/Resources/SceneLocatorSettings.txt"
+		]
+	},
+	{
+	  "tag":"文件",
+	  "describe": "配置文件夹",
+          "scenes": [
+        "/_MyAssets/Resources/Configs/configsExcle"
+		]
+	},
+	{
+	  "tag":"文件",
+	  "describe": "字符配置文件",
+      "scenes": [
+        "/_MyAssets/Resources/Configs/Localization/Localization.xlsm"
+		]
+	},
+    {
+	  "tag":"副本",
+      "describe": "开始界面",
+      "scenes": [
+        "/_MyAssets/Scenes/start_menu.unity"
+      ]
+    },
+    {
+	  "tag":"副本",
+      "describe": "营地",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/test_camp2.unity"
+      ]
+    },
+    {
+	  "tag":"剧情",
+      "describe": "1 - 新兵训练营 - 地表",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/event_1000_nestling_0_event.unity",
+        "/_MyAssets/Scenes/event_1000_nestling_0.unity"
+      ]
+    },
+    {
+	  "tag":"剧情",
+      "describe": "2 - 新兵训练营 - 地下室",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/event_1000_nestling_1_event.unity",
+        "/_MyAssets/Scenes/camp_paradise_interior_training.unity"
+      ]
+    },
+    {
+	  "tag":"剧情",
+      "describe": "3 - 新人类城市 - 帕拉戴斯",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_paradise_0_event_1.unity",
+        "/_MyAssets/Scenes/camp_paradise_0.unity"
+      ]
+    },
+    {
+	  "tag":"剧情",
+      "describe": "4 - 监狱上层",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_paradise_interior_0_event_1.unity",
+        "/_MyAssets/Scenes/camp_paradise_interior_0.unity"
+      ]
+    },
+    {
+	  "tag":"剧情",
+      "describe": "5 - 新人类城市 - 帕拉戴斯（墓地）",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_paradise_cemetery_0_event_1.unity",
+        "/_MyAssets/Scenes/camp_paradise_cemetery_0.unity"
+      ]
+    },
+    {
+	  "tag":"剧情",
+      "describe": "6 - 新人类城市 - 帕拉戴斯（前往哨站）",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_paradise_0_event_2.unity",
+        "/_MyAssets/Scenes/camp_paradise_0.unity"
+      ]
+    },
+    {
+	  "tag":"剧情",
+      "describe": "7 - 世界地图 - 前往圣城",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/world_map_0_event_1.unity",
+        "/_MyAssets/Scenes/world_map_0.unity"
+      ]
+    },
+    {
+	  "tag":"剧情",
+      "describe": "8 - 圣城前哨 - 迷雾镇",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0_event_0.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0.unity"
+      ]
+    },
+    {
+	  "tag":"剧情",
+      "describe": "9 - 圣城大作战 - 威斯特骚斯区",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_holyland_SW_0_event_1.unity",
+        "/_MyAssets/Scenes/camp_holyland_SW_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_holyland_SW_0.unity"
+      ]
+    },
+    {
+	  "tag":"剧情",
+      "describe": "10 - 圣城前哨 - 迷雾镇2",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0_event_1.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0.unity"
+      ]
+    },
+    {
+	  "tag":"剧情",
+      "describe": "11 - 世界地图 - 前往帕拉戴斯",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/world_map_0_event_2.unity",
+        "/_MyAssets/Scenes/world_map_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "12 - 帕拉戴斯-治安战",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_paradise_0_event_3.unity",
+        "/_MyAssets/Scenes/camp_paradise_0_event_-1.unity",
+        "/_MyAssets/Scenes/camp_paradise_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "13 - 帕拉戴斯-墓地",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_paradise_forest_0_event_1.unity",
+        "/_MyAssets/Scenes/camp_paradise_forest_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_paradise_forest_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "14 - 帕拉戴斯-援军",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_paradise_0_event_4.unity",
+        "/_MyAssets/Scenes/camp_paradise_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "15 - 反攻开始-授勋",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0_event_2.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "16 - 反攻开始-BOSS战1",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_holyland_SW_0_event_2.unity",
+        "/_MyAssets/Scenes/camp_holyland_SW_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_holyland_SW_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "17 - 反攻开始-BOSS战2",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_holyland_W_0_event_1.unity",
+        "/_MyAssets/Scenes/camp_holyland_W_0_event_-1.unity",
+        "/_MyAssets/Scenes/camp_holyland_W_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_holyland_W_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "18 - 反攻开始-BOSS战3",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_holyland_NW_0_event_1.unity",
+        "/_MyAssets/Scenes/camp_holyland_NW_0_event_-1.unity",
+        "/_MyAssets/Scenes/camp_holyland_NW_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_holyland_NW_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "19 - 第一章 结束-家园镇！",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_paradise_0_event_5.unity",
+        "/_MyAssets/Scenes/camp_paradise_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "20 - 新的开始 - 秩序",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_homeland_event_1.unity",
+        "/_MyAssets/Scenes/camp_homeland_event_-1.unity",
+        "/_MyAssets/Scenes/camp_homeland.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "21 - 迷雾镇-学姐的踪迹",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0_event_3.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "22 - 帕拉戴斯-学姐的踪迹",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_paradise_0_event_6.unity",
+        "/_MyAssets/Scenes/camp_paradise_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_paradise_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "23 - 圣城 学姐的踪迹",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_holyland_SW_0_event_3.unity",
+        "/_MyAssets/Scenes/camp_holyland_SW_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_holyland_SW_0_event_-1.unity",
+        "/_MyAssets/Scenes/camp_holyland_SW_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "24 - 圣城 学姐的踪迹 2",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_holyland_W_0_event_2.unity",
+        "/_MyAssets/Scenes/camp_holyland_W_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_holyland_W_0_event_-3.unity",
+        "/_MyAssets/Scenes/camp_holyland_W_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "25 - 圣城 学姐的踪迹 3",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_holyland_NW_0_event_2.unity",
+        "/_MyAssets/Scenes/camp_holyland_NW_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_holyland_NW_0_event_-3.unity",
+        "/_MyAssets/Scenes/camp_holyland_NW_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "26 - 帕拉戴斯（北部森林）-食人花",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_paradise_forest_0_event_2.unity",
+        "/_MyAssets/Scenes/camp_paradise_forest_0_event_-2.unity",
+        "/_MyAssets/Scenes/camp_paradise_forest_0.unity"
+      ]
+    },
+{
+	  "tag":"剧情",
+      "describe": "27 - 第二章 结束 ",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_homeland_event_2.unity",
+        "/_MyAssets/Scenes/camp_homeland_event_-1.unity",
+        "/_MyAssets/Scenes/camp_homeland.unity"
+      ]
+    },
+
+	{
+	  "tag":"大地图",
+      "describe": "大地图new",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/world_map_0.unity"
+      ]
+    },
+    {
+	  "tag":"副本",
+      "describe": "失落城市2",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/dungenon_LostCity_1.unity"
+      ]
+    },
+	{
+	  "tag":"副本",
+      "describe": "迷雾镇",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_post_mistland_0.unity"
+      ]
+    },
+	{
+	  "tag":"副本",
+      "describe": "圣城-西南",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_holyland_SW_0.unity"
+      ]
+    },
+	{
+	  "tag":"副本",
+      "describe": "圣城-西北",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_holyland_NW_0.unity"
+      ]
+    },
+	{
+	  "tag":"副本",
+      "describe": "圣城-西",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/camp_holyland_W_0.unity"
+      ]
+    },
+	{
+	  "tag":"随机副本",
+      "describe": "地下实验室1",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/dungenon_paradise_interior_0.unity"
+      ]
+    },
+	{
+	  "tag":"FUCK",
+      "describe": "操の屋",
+      "scenes": [
+        "/_MyAssets/Scenes/fuck_house_0.unity"
+      ]
+    },
+	{
+	  "tag":"EDITOR",
+      "describe": "角色编辑器",
+      "scenes": [
+        "/_MyAssets/Scenes/character_editor.unity"
+      ]
+    },
+	{
+	  "tag":"EDITOR",
+      "describe": "主UI编辑",
+      "scenes": [
+        "/_MyAssets/Scenes/editor_ui_character.unity"
+      ]
+    },
+	{
+	  "tag":"EDITOR",
+      "describe": "最小化测试场景",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/min_test_scene.unity"
+      ]
+    },
+	{
+	  "tag":"EDITOR",
+      "describe": "最小化建造场景",
+      "scenes": [
+        "/_MyAssets/Scenes/ui_scene.unity",
+        "/_MyAssets/Scenes/min_test_scene_building.unity"
+      ]
+    }
+  ]
+}

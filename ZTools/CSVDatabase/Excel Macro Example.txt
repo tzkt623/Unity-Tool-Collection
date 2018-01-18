@@ -1,0 +1,22 @@
+Sub EXAMPLE ()
+    Application.ScreenUpdating = False
+    Dim Str As String
+    Set fso = CreateObject("Scripting.FileSystemObject")
+    With Sheet2
+        RowCount = .UsedRange.Rows.Count
+        Path = ThisWorkbook.Path & "\example_csv.txt"
+        If fso.fileexists(Path) Then
+                 fso.deletefile Path
+                 MsgBox "re-exported"
+        End If
+            For I = 2 To RowCount
+                    If .Cells(I, 1) <> "" Then
+                        TempStr = TempStr & .Cells(I, 1) & vbCrLf & .Cells(I, 2) & vbCrLf
+                    End If
+            Next
+            TempStr = Left(TempStr, (Len(TempStr) - 1))
+            Set StrTxt = fso.opentextfile(Path, 2, True, -1)
+            StrTxt.Write TempStr
+            StrTxt.Close
+    End With
+End Sub
